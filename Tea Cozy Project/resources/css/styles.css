@@ -1,0 +1,131 @@
+html {
+    background-color: black;
+    color: seashell;
+    font-family: helvetica;
+    opacity: 0.9;
+}
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    z-index: 2;
+}
+a {
+    text-decoration: none;
+    color: seashell;
+}
+
+.logo {
+    display: inline-flex;
+    height: 50px;
+    justify-content: center;
+    padding-top: 7.5px;
+}
+.logo:hover {
+    cursor: pointer;
+}
+.nav {
+    display: inline-flex;
+    float: right;
+}
+.nav-button {
+    padding-left: 20px;
+    margin-right: 30px;
+    text-decoration: underline;
+}
+.nav-button:hover {
+    color: grey;
+    cursor: pointer;
+}
+.banner-container {
+    height: 700px;
+    top: 69px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text {
+    position:absolute;
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+}
+.banner-image {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+.tea-month-container {
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    scroll-margin-top: 69px;
+}
+.featured-tea {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+.tea-picture {
+    margin: 10px;
+}
+.locations-image{
+    margin: auto;
+    top: 69px;
+    height: 500px;
+    width: 1200px;
+    background-image: url(../images/img-locations-background.jpg);
+    background-position: center;
+    scroll-margin-top: 69px;
+}
+.location-title {
+    position: absolute;
+    width: 1200px;
+    text-align: center;
+    font-size: 24px;
+}
+.locations-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 50px;
+    opacity: 1;
+    background-color: black;
+}
+.contact-container {
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.contact-title {
+    top:0;
+    font-size: 24px;
+    margin-bottom: -20px;
+}
+.contact-info {
+    font-size: 22px;
+    line-height: 40px;
+}
+footer {
+    margin-left: 20px;
+}
